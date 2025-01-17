@@ -4,10 +4,8 @@
 // Function which causes a buffer overflow
 void causeOverflow() {
     char buffer[10];  // Buffer of size 10 bytes
-    const char* largeInput = "This is a very large input string that will overflow the buffer!";
-    
-    // Unsafe copy into buffer
-    std::strcpy(buffer, largeInput); 
+    std::cout << "Enter a string: ";
+    std::cin >> buffer; // This might cause a buffer overflow
 
     std::cout << "Buffer content: " << buffer << std::endl;
 }
