@@ -16,7 +16,7 @@ void action() {
 }
 
 int main() {
-    causeOverflow(); // This will cause our program to abrutly exit
+    causeOverflow(); // This might cause our program to abrutly exit
     action();
     return 0;
 }
