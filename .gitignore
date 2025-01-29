@@ -6,3 +6,6 @@ Week 2/iii_identified_vulnerabilities.txt
 Week 2/iv_dummy_dependency.txt
 Week 3/random_output.bin
 Week 3/t2
+*.enc
+*.dec
+Week 3/t4
